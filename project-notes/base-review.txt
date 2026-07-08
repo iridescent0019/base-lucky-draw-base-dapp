@@ -1,0 +1,8 @@
+Base Lucky Draw / Base review note
+
+This repository contains public project proof for a Base dApp.
+Build ID: 6a0408642be96789d34cefd1
+Builder Code: bc_iggwvd57
+Live Demo: https://base-lucky-draw.vercel.app
+
+No private operational material is stored in this note.

@@ -1,0 +1,13 @@
+.vercel
+.env.local
+.env
+.env.*
+!.env.example
+vercel.txt
+Vercel.txt
+rpc.txt
+RPC.txt
+node_modules
+.next
+*.log
+.DS_Store

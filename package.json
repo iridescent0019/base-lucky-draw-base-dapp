@@ -1,0 +1,36 @@
+{
+  "name": "base-lucky-draw",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "deploy:contract": "node scripts/deploy-lucky-draw.mjs",
+    "start": "next start",
+    "lint": "eslint",
+    "submission:assets": "node scripts/generate-submission-assets.mjs"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.6.1",
+    "@tanstack/react-query": "^5.100.9",
+    "lucide-react": "^1.14.0",
+    "next": "16.2.6",
+    "ox": "^0.14.20",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "solc": "^0.8.35",
+    "viem": "^2.48.11",
+    "wagmi": "^3.6.11"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "playwright": "^1.59.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
